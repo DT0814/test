@@ -12,6 +12,5 @@ public class Test {
             int n = ra.nextInt (3);
             proxyVehicle.start (name[n]);
         }
-
     }
 }
