@@ -9,8 +9,6 @@ public class Test {
         Car car = new Car ();
         Class<?> cls = car.getClass ();
         Vehiclehandler vehiclehandler = new Vehiclehandler (car);
-        //ProxyVehicle proxyVehicle = (ProxyVehicle) Proxy.newProxyInstance (Vehiclehandler.class.getClassLoader (), cls.getInterfaces (), vehiclehandler);
-
         Vehicle vehicle = (Vehicle) Proxy.newProxyInstance (Vehiclehandler.class.getClassLoader (), cls.getInterfaces (), vehiclehandler);
         vehicle.start ("jack");
         ProxyVehicle proxyVehicle = new ProxyVehicle (vehicle);
