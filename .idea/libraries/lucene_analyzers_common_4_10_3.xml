@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lucene-analyzers-common-4.10.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/proxy/lucene-analyzers-common-4.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proxy/lucene-analyzers-smartcn-4.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proxy/lucene-core-4.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proxy/lucene-queryparser-4.10.3.jar!/" />
+      <root url="file://$PROJECT_DIR$/out/production/proxy" />
+      <root url="file://$PROJECT_DIR$/out/production/proxy" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/out/production/proxy" recursive="false" />
+  </library>
+</component>
